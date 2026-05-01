@@ -11,129 +11,201 @@
 const CONFIG = {
 
   // ─── Personal Info ───────────────────────────────────────────
-  name: "Ruthran Raghavan",
-  title: "Chief AI Scientist",
-  tagline: "Designing and deploying enterprise-grade AI systems that deliver measurable ROI.",
-  roles: ["Chief AI Scientist", "AI Automation Expert", "Multi-Agent Orchestrator", "Corporate Trainer"],
+  name: "Balakumaran S",
+  title: "Full Stack & IoT Developer",
+  tagline: "Building intelligent software and IoT systems that solve real-world problems.",
+  roles: [
+    "Full Stack Developer",
+    "IoT Enthusiast",
+    "ESP32 Developer",
+    "AI & ML Learner"
+  ],
 
   about: {
     description: [
-      "I'm a Chief AI Scientist with 10+ years of experience designing, developing, and deploying enterprise-grade AI systems, specializing in LLM-powered applications and multi-agent orchestration.",
-      "Expert in building advanced RAG pipelines and complex automation workflows using LangChain and LangGraph to bridge the gap between cutting-edge AI research and real-world scalability.",
-      "A leading corporate trainer who has delivered 10,000+ hours of AI training to over 5,000 learners worldwide, enabling organizations to achieve 10x productivity improvements."
+      "I am a passionate developer and M.Tech Integrated CSE student with a strong interest in full-stack development, IoT systems, and AI-powered applications.",
+      
+      "I have worked on projects involving ESP32, Flask, Streamlit, and real-time monitoring systems, focusing on creating practical and scalable solutions for automation, analytics, and smart systems.",
+
+      "My experience includes developing interactive dashboards, analytical models, and IoT-based smart systems through hackathons and academic projects. I enjoy learning new technologies, collaborating with interdisciplinary teams, and solving real-world engineering problems."
     ],
+
     resumeUrl: "docs/resume.pdf",
-    avatarUrl: "assets/images/profile.jpeg"  // Leave empty to use generated initials avatar
+    avatarUrl: "assets/images/profile.jpeg"
   },
 
   // ─── Social Links ───────────────────────────────────────────
   social: {
-    github: "https://github.com/hereandnowai",
-    linkedin: "https://linkedin.com/in/ruthranraghavan",
-    twitter: "https://twitter.com/hereandnowai",
-    email: "ruthran@hereandnow.co.in"
+    github: "https://github.com/SBK-07",
+    linkedin: "https://www.linkedin.com/in/balakumaran2007/",
+    email: "balakumaran2470050@ssn.edu.in"
   },
 
   // ─── Skills ─────────────────────────────────────────────────
   skills: [
-    { name: "LLMs / GenAI (GPT-5, Gemini)", level: 98, icon: "🤖" },
-    { name: "LangChain / LangGraph",       level: 95, icon: "🦜" },
-    { name: "Python / AI-ML Stack",       level: 95, icon: "🐍" },
-    { name: "Multi-Agent Systems",        level: 92, icon: "🤝" },
-    { name: "PyTorch / TensorFlow",       level: 90, icon: "🔥" },
-    { name: "RAG / Elasticsearch",        level: 90, icon: "📚" },
-    { name: "MCP Servers / Automation",   level: 88, icon: "⚙️" },
-    { name: "Docker / Kubernetes / Azure",level: 85, icon: "🐳" },
+    { name: "Python", level: 90, icon: "🐍" },
+    { name: "Flask / Streamlit", level: 85, icon: "🌐" },
+    { name: "Flutter", level: 80, icon: "📱" },
+    { name: "HTML / CSS / JavaScript", level: 82, icon: "💻" },
+    { name: "Node.js / Next.js", level: 70, icon: "⚡" },
+    { name: "PostgreSQL / Prisma", level: 68, icon: "🗄️" },
+    { name: "Machine Learning Basics", level: 75, icon: "🤖" },
+    { name: "Linux / Ubuntu", level: 75, icon: "🐧" },
+    { name: "Git / GitHub", level: 80, icon: "🔧" },
+    { name: "ESP32 / IoT Systems", level: 88, icon: "📡" },
+    { name: "Raspberry Pi", level: 72, icon: "🍓" },
+    { name: "Arduino", level: 80, icon: "🔌" }
+    
   ],
 
   // ─── Projects ───────────────────────────────────────────────
   projects: [
-    {
-      title: "Probot AI Professor",
-      description: "A multimodal AI professor capable of natural conversation, adaptive curriculum delivery, and speech synthesis for personalized learning.",
-      tech: ["Generative AI", "Speech Synthesis", "LLMs", "Python"],
-      liveUrl: "#",
-      githubUrl: "#",
+      {
+      title: "/Vendor Hiring Management Platform",
+      description: "A full-stack vendor hiring and management platform designed to streamline recruitment workflows, vendor onboarding, task assignment, and status tracking with scalable backend architecture.",
+      tech: ["Next.js", "Node.js", "PostgreSQL", "Prisma"],
+      
+      githubUrl: "https://github.com/SBK-07/Vendor-Hiring-Manager-Contract-Management-Module",
       image: "",
       featured: true,
-      category: "ai"
+      category: "web"
     },
+
     {
-      title: "Enterprise Multi-Agent Orchestrator",
-      description: "A complex multi-agent system built with LangGraph for autonomous enterprise operations, streamlining high-complexity workflows.",
-      tech: ["LangGraph", "LangChain", "OpenAI", "Python"],
-      liveUrl: "#",
-      githubUrl: "#",
+      title: "Smart Auto Assist Home Safety System",
+      description: "An IoT-based smart home system focused on energy efficiency and safety using ESP32-S3, energy monitoring, motion sensing, and intelligent automation.",
+      tech: ["ESP32", "ESP-S3-Box", "IoT", "Embedded Systems", "Sensors"],
+      
+      githubUrl: "https://github.com/thanuj012/SMART_AUTO_ASSIST_HOME_SAFETY_SYSTEM",
       image: "",
-      featured: true,
-      category: "automation"
+      featured: false,
+      category: "IoT"
     },
+
     {
-      title: "Advanced RAG Pipelines",
-      description: "Large-scale Retrieval-Augmented Generation systems integrated with Elasticsearch and Haystack, boosting search accuracy by over 40%.",
-      tech: ["Elasticsearch", "Haystack", "RAG", "LLMs"],
-      liveUrl: "#",
-      githubUrl: "#",
+      title: "Groundwater DWLR Monitor",
+      description: "A cross-platform Flutter application for real-time groundwater level monitoring, anomaly detection, predictive analytics, and environmental data visualization using DWLR station datasets.",
+      tech: ["Flutter", "Dart", "IoT", "Analytics"],
+      
+      githubUrl: "https://github.com/SBK-07/groundwater_dwlr_monitor",
       image: "",
-      featured: true,
-      category: "ai"
+      featured: false,
+      category: "web"
     },
+
     {
-      title: "MCP Automation Infrastructure",
-      description: "Developed robust Model Context Protocol (MCP) servers and clients for seamless communication between AI agents and external tools.",
-      tech: ["MCP", "TypeScript", "Node.js", "AI Agents"],
+      title: "Campus Resource Sharing Platform",
+      description: "A Flutter and Firebase-based platform for secure item lending and borrowing within campus communities featuring QR-based handover, trust scoring, real-time chat, and AI-powered assistance.",
+      tech: ["Flutter", "Firebase", "Node.js", "Socket.IO"],
+      
+      githubUrl: "https://github.com/jeeva2470041/sharingplatform/",
+      image: "",
+      featured: false,
+      category: "web"
+    },
+
+    {
+      title: "CrimeSpot",
+      description: "A Streamlit-based crime analysis and hotspot prediction platform integrating dashboards, analytics, and map visualization for district-level crime insights.",
+      tech: ["Python", "Streamlit", "Folium", "Machine Learning"],
+      
+      githubUrl: "https://github.com/SBK-07/CrimeHotspots-CyberHackathon",
+      image: "",
+      featured: false,
+      category: "AI"
+    },
+
+    {
+      title: "Airline Reservation System",
+      description: "A Flask-powered airline reservation system with booking, cancellation, payment handling, and real-time flight enquiry modules.",
+      tech: ["Flask", "Python", "HTML", "CSS"],
+      
+      githubUrl: "https://github.com/Srinivasan1716/AirlineReservationSystem",
+      image: "",
+      featured: false,
+      category: "web"
+    },
+
+    {
+      title: "Mess Management Platform",
+      description: "A smart digital mess management system designed to streamline meal scheduling, attendance tracking, token handling, and food management operations for students and administrators.",
+      tech: ["Flask", "Python", "HTML", "CSS"],
+      
+      githubUrl: "https://github.com/SBK-07/Mess-Management-Platform",
+      image: "",
+      featured: false,
+      category: "web"
+    },
+
+    {
+      title: "ESP32 Interactive Dashboard",
+      description: "Developed an interactive GUI and lightweight analytical system for monitoring live power consumption and peak-hour alerts on ESP32-S3-BOX.",
+      tech: ["ESP32-S3", "Embedded UI", "IoT Analytics"],
+      
+      githubUrl: "https://github.com/thanuj012/SMART_AUTO_ASSIST_HOME_SAFETY_SYSTEM/tree/main/esp32-devkit",
+      image: "",
+      featured: false,
+      category: "IoT"
+    },
+
+    {
+      title: "Food Order And Tracking System",
+      description: "A Java-based console application simulating an end-to-end online food ordering and delivery platform with role-based access for customers, admins, and delivery staff. The system supports restaurant management, order tracking, payment processing, report generation, and persistent data handling while demonstrating core OOP principles and modular software design.",
+      tech: ["Java", "OOP", "File Handling", "Collections Framework"],
       liveUrl: "#",
       githubUrl: "#",
       image: "",
       featured: false,
-      category: "automation"
-    },
-    {
-      title: "Predictive Maintenance AI",
-      description: "Predictive maintenance agents for industrial deployments that increased equipment uptime by 20% using real-time sensor data.",
-      tech: ["Python", "TensorFlow", "IoT", "Scikit-Learn"],
-      liveUrl: "#",
-      githubUrl: "#",
-      image: "",
-      featured: false,
-      category: "industrial"
-    },
-    {
-      title: "AI Language Assessment Engine",
-      description: "An NLP-powered language evaluation system using CNNs and RNNs, improving assessment accuracy by 30% over manual methods.",
-      tech: ["NLP", "CNNs", "RNNs", "Python"],
-      liveUrl: "#",
-      githubUrl: "#",
-      image: "",
-      featured: false,
-      category: "ai"
+      category: "java"
     }
+
   ],
 
   // ─── Experience / Timeline ──────────────────────────────────
   experience: [
     {
-      role: "Chief AI Scientist",
-      company: "Here And Now AI",
-      period: "2018 — Present",
-      description: "Leading the development of enterprise-grade AI automation frameworks and multi-agent systems. Delivered 180+ AI agents across finance, healthcare, and manufacturing sectors.",
-      tech: ["LangGraph", "LangChain", "OpenAI", "Python", "Azure"]
+    role: "Smart India Hackathon 2025 Participant",
+    company: "SIH 2025",
+    period: "2025",
+    description: "Worked on the Groundwater DWLR Monitor project focused on real-time groundwater monitoring, predictive analytics, and environmental data visualization using Flutter and IoT concepts.",
+    tech: ["Flutter", "Analytics", "IoT", "Data Visualization"]
     },
+
     {
-      role: "Data Scientist",
-      company: "HERE AND NOW – The Language Institute",
-      period: "2011 — 2023",
-      description: "Architected predictive modeling systems for personalized education. Built AI-powered language assessment engines reducing manual processing time by 40%.",
-      tech: ["Python", "TensorFlow", "Scikit-Learn", "SVM", "NLP"]
+      role: "Hackathon Participant",
+      company: "Hack Fusion 1.0",
+      period: "2025",
+      description: "Worked on an IoT-based smart home safety and energy optimization system during a 24-hour interdisciplinary hackathon and received the Inspiring Team Award.",
+      tech: ["ESP32", "IoT", "Embedded Systems", "Analytics"]
     },
+
     {
-      role: "M.Sc. Statistics & Psychology",
-      company: "Madras University",
-      period: "2010 — 2012",
-      description: "Specialized in advanced research and modeling, bridging cognitive neuroscience with AI architecture for human-like interaction design.",
-      tech: ["Statistical Modeling", "Cognitive Science", "Predictive Analytics"]
+    role: "Hackathon Participant",
+    company: "SNU Hackathon 2025",
+    period: "2025",
+    description: "Worked on a Campus Resource Sharing Platform focused on secure peer-to-peer item lending, QR-based verification, and trust-based community interactions.",
+    tech: ["Flutter", "Firebase", "Node.js", "Real-Time Systems"]
+    },
+
+    {
+    role: "Cyber Hackathon Participant",
+    company: "Thoothukudi Cyber Hackathon",
+    period: "2025",
+    description: "Developed CrimeSpot, an AI-assisted crime analysis and hotspot prediction platform with ML-based forecasting and geospatial visualization features.",
+    tech: ["Python", "Machine Learning", "Streamlit", "Folium"]
+    },
+
+    
+
+    {
+      role: "M.Tech Integrated CSE Student",
+      company: "University Program",
+      period: "2024 — Present",
+      description: "Learning core concepts in algorithms, full-stack development, AI, IoT systems, and software engineering through projects and practical implementations.",
+      tech: ["Python", "DBMS", "Algorithms", "OOP", "OS", "AI/ML", "Web Development"]
     }
   ],
+
 
   // ─── Theme Configuration ────────────────────────────────────
   theme: {
