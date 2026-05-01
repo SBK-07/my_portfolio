@@ -18,6 +18,7 @@ const CONFIG = {
     "Full Stack Developer",
     "IoT Enthusiast",
     "ESP32 Developer",
+    "AI Enthusiast",
     "AI & ML Learner"
   ],
 
