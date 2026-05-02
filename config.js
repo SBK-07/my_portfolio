@@ -44,18 +44,29 @@ const CONFIG = {
 
   // ─── Skills ─────────────────────────────────────────────────
   skills: [
-    { name: "Python", level: 90, icon: "🐍" },
-    { name: "Flask / Streamlit", level: 85, icon: "🌐" },
-    { name: "Flutter", level: 80, icon: "📱" },
-    { name: "HTML / CSS / JavaScript", level: 82, icon: "💻" },
-    { name: "Node.js / Next.js", level: 70, icon: "⚡" },
-    { name: "PostgreSQL / Prisma", level: 68, icon: "🗄️" },
-    { name: "Machine Learning Basics", level: 75, icon: "🤖" },
-    { name: "Linux / Ubuntu", level: 75, icon: "🐧" },
-    { name: "Git / GitHub", level: 80, icon: "🔧" },
-    { name: "ESP32 / IoT Systems", level: 88, icon: "📡" },
-    { name: "Raspberry Pi", level: 72, icon: "🍓" },
-    { name: "Arduino", level: 80, icon: "🔌" }
+    { name: "Python", level: 90, icon: "devicon-python-plain" },
+
+{ name: "Flask / Streamlit", level: 85, icon: "devicon-flask-original" },
+
+{ name: "Flutter", level: 80, icon: "devicon-flutter-plain" },
+
+{ name: "HTML / CSS / JavaScript", level: 82, icon: "devicon-javascript-plain" },
+
+{ name: "Node.js / Next.js", level: 70, icon: "devicon-nodejs-plain" },
+
+{ name: "PostgreSQL / Prisma", level: 68, icon: "devicon-postgresql-plain" },
+
+{ name: "Machine Learning Basics", level: 75, icon: "fas fa-robot" },
+
+{ name: "Linux / Ubuntu", level: 75, icon: "devicon-linux-plain" },
+
+{ name: "Git / GitHub", level: 80, icon: "devicon-git-plain" },
+
+{ name: "ESP32 / IoT Systems", level: 88, icon: "fas fa-microchip" },
+
+{ name: "Raspberry Pi", level: 72, icon: "devicon-raspberrypi-line" },
+
+{ name: "Arduino", level: 80, icon: "devicon-arduino-plain" }
     
   ],
 

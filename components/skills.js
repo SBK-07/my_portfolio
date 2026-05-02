@@ -16,7 +16,9 @@ const Skills = {
       <div class="skill-card reveal" style="transition-delay: ${i * 0.08}s">
         <div class="skill-card__header">
           <span class="skill-card__name">
-            <span class="skill-card__icon">${skill.icon || '⚡'}</span>
+            <span class="skill-card__icon">
+              <i class="${skill.icon || 'fas fa-bolt'}"></i>
+            </span>
             ${skill.name}
           </span>
           <span class="skill-card__level">${skill.level}%</span>
